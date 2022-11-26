@@ -10,7 +10,7 @@ Docker Compose:
 version: '3'
 
 services:
-  tuic-server:
+  tuic-client:
     image: ricky9w/tuic-client:{{ tag }}
     network_mode: {{ network mode }}
     volumes:
